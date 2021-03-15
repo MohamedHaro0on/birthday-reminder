@@ -6,7 +6,7 @@
     justify-content : center ;
 }
 .Card{
-    width : 40vw ;
+    width : 20vw ;
     background-color : #fff ;
     border-radius : 10px ;
     box-shadow : 0 5px 15px rgba(0,0,0,0.4);
@@ -18,7 +18,6 @@
 }
 .Person{
     display : flex ;
-    padding : 20px 0px ;
     align-items : center ;
 }
 .Person > img{
@@ -34,7 +33,7 @@
 .Person div h2{
     letter-spacing : 1px ;
     line-height : 1 ;
-    margin-bottom : .35rem ;
+    margin-bottom : .35em ;
     font-weight : 600 ;
 }
 .Person div p{
@@ -48,6 +47,8 @@
     border-radius : 10px; 
     color : #fff ;
     background-color : #f28ab2 ;
-    font-weight : bold ;
+    font-weight : lighter ;
     cursor : pointer ;
+    text-transform: capitalize ;
+    font-size : 1.5em ;
 }
